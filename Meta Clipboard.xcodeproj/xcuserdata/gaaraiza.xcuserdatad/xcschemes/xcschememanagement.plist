@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Meta Clipboard OS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Meta Clipboard.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,21 @@
 			<true/>
 		</dict>
 		<key>D81F45FA1C5827DC00F9934D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D8C009D31C58320C000A6ECE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D8C009E31C58320C000A6ECE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D8C009EE1C58320D000A6ECE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -15,6 +15,16 @@
 		D81F45EA1C5827DC00F9934D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81F45E81C5827DC00F9934D /* LaunchScreen.storyboard */; };
 		D81F45F51C5827DC00F9934D /* Meta_ClipboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81F45F41C5827DC00F9934D /* Meta_ClipboardTests.swift */; };
 		D81F46001C5827DC00F9934D /* Meta_ClipboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81F45FF1C5827DC00F9934D /* Meta_ClipboardUITests.swift */; };
+		D8C009D71C58320C000A6ECE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C009D61C58320C000A6ECE /* AppDelegate.swift */; };
+		D8C009D91C58320C000A6ECE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C009D81C58320C000A6ECE /* ViewController.swift */; };
+		D8C009DB1C58320C000A6ECE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8C009DA1C58320C000A6ECE /* Assets.xcassets */; };
+		D8C009DE1C58320C000A6ECE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8C009DC1C58320C000A6ECE /* Main.storyboard */; };
+		D8C009E91C58320C000A6ECE /* Meta_Clipboard_OSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C009E81C58320C000A6ECE /* Meta_Clipboard_OSTests.swift */; };
+		D8C009F41C58320D000A6ECE /* Meta_Clipboard_OSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C009F31C58320D000A6ECE /* Meta_Clipboard_OSUITests.swift */; };
+		D8C00A041C5A6D77000A6ECE /* CloudArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C00A031C5A6D77000A6ECE /* CloudArray.swift */; };
+		D8C00A051C5A6D77000A6ECE /* CloudArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C00A031C5A6D77000A6ECE /* CloudArray.swift */; };
+		D8C00A071C5A6DBE000A6ECE /* MetaClipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C00A061C5A6DBE000A6ECE /* MetaClipboard.swift */; };
+		D8C00A081C5A6DBE000A6ECE /* MetaClipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C00A061C5A6DBE000A6ECE /* MetaClipboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +41,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = D81F45D81C5827DC00F9934D;
 			remoteInfo = "Meta Clipboard";
+		};
+		D8C009E51C58320C000A6ECE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D81F45D11C5827DC00F9934D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8C009D31C58320C000A6ECE;
+			remoteInfo = "Meta Clipboard OS";
+		};
+		D8C009F01C58320D000A6ECE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D81F45D11C5827DC00F9934D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8C009D31C58320C000A6ECE;
+			remoteInfo = "Meta Clipboard OS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -49,6 +73,22 @@
 		D81F45FB1C5827DC00F9934D /* Meta ClipboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meta ClipboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D81F45FF1C5827DC00F9934D /* Meta_ClipboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meta_ClipboardUITests.swift; sourceTree = "<group>"; };
 		D81F46011C5827DC00F9934D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8C009D41C58320C000A6ECE /* Meta Clipboard OS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meta Clipboard OS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8C009D61C58320C000A6ECE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8C009D81C58320C000A6ECE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8C009DA1C58320C000A6ECE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8C009DD1C58320C000A6ECE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8C009DF1C58320C000A6ECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8C009E41C58320C000A6ECE /* Meta Clipboard OSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meta Clipboard OSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8C009E81C58320C000A6ECE /* Meta_Clipboard_OSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meta_Clipboard_OSTests.swift; sourceTree = "<group>"; };
+		D8C009EA1C58320C000A6ECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8C009EF1C58320D000A6ECE /* Meta Clipboard OSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Meta Clipboard OSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8C009F31C58320D000A6ECE /* Meta_Clipboard_OSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meta_Clipboard_OSUITests.swift; sourceTree = "<group>"; };
+		D8C009F51C58320D000A6ECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8C009FF1C58328A000A6ECE /* Meta Clipboard OS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Meta Clipboard OS.entitlements"; sourceTree = "<group>"; };
+		D8C00A031C5A6D77000A6ECE /* CloudArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudArray.swift; sourceTree = "<group>"; };
+		D8C00A061C5A6DBE000A6ECE /* MetaClipboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaClipboard.swift; sourceTree = "<group>"; };
+		D8DC82A81C5828B900365148 /* Meta Clipboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Meta Clipboard.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,15 +113,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D8C009D11C58320C000A6ECE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8C009E11C58320C000A6ECE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8C009EC1C58320D000A6ECE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		D81F45D01C5827DC00F9934D = {
 			isa = PBXGroup;
 			children = (
+				D8C00A021C5A6D54000A6ECE /* Utilities */,
 				D81F45DB1C5827DC00F9934D /* Meta Clipboard */,
 				D81F45F31C5827DC00F9934D /* Meta ClipboardTests */,
 				D81F45FE1C5827DC00F9934D /* Meta ClipboardUITests */,
+				D8C009D51C58320C000A6ECE /* Meta Clipboard OS */,
+				D8C009E71C58320C000A6ECE /* Meta Clipboard OSTests */,
+				D8C009F21C58320D000A6ECE /* Meta Clipboard OSUITests */,
 				D81F45DA1C5827DC00F9934D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +157,9 @@
 				D81F45D91C5827DC00F9934D /* Meta Clipboard.app */,
 				D81F45F01C5827DC00F9934D /* Meta ClipboardTests.xctest */,
 				D81F45FB1C5827DC00F9934D /* Meta ClipboardUITests.xctest */,
+				D8C009D41C58320C000A6ECE /* Meta Clipboard OS.app */,
+				D8C009E41C58320C000A6ECE /* Meta Clipboard OSTests.xctest */,
+				D8C009EF1C58320D000A6ECE /* Meta Clipboard OSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +167,7 @@
 		D81F45DB1C5827DC00F9934D /* Meta Clipboard */ = {
 			isa = PBXGroup;
 			children = (
+				D8DC82A81C5828B900365148 /* Meta Clipboard.entitlements */,
 				D81F45DC1C5827DC00F9934D /* AppDelegate.swift */,
 				D81F45DE1C5827DC00F9934D /* ViewController.swift */,
 				D81F45E01C5827DC00F9934D /* Main.storyboard */,
@@ -126,6 +195,46 @@
 				D81F46011C5827DC00F9934D /* Info.plist */,
 			);
 			path = "Meta ClipboardUITests";
+			sourceTree = "<group>";
+		};
+		D8C009D51C58320C000A6ECE /* Meta Clipboard OS */ = {
+			isa = PBXGroup;
+			children = (
+				D8C009FF1C58328A000A6ECE /* Meta Clipboard OS.entitlements */,
+				D8C009D61C58320C000A6ECE /* AppDelegate.swift */,
+				D8C009D81C58320C000A6ECE /* ViewController.swift */,
+				D8C009DA1C58320C000A6ECE /* Assets.xcassets */,
+				D8C009DC1C58320C000A6ECE /* Main.storyboard */,
+				D8C009DF1C58320C000A6ECE /* Info.plist */,
+			);
+			path = "Meta Clipboard OS";
+			sourceTree = "<group>";
+		};
+		D8C009E71C58320C000A6ECE /* Meta Clipboard OSTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8C009E81C58320C000A6ECE /* Meta_Clipboard_OSTests.swift */,
+				D8C009EA1C58320C000A6ECE /* Info.plist */,
+			);
+			path = "Meta Clipboard OSTests";
+			sourceTree = "<group>";
+		};
+		D8C009F21C58320D000A6ECE /* Meta Clipboard OSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8C009F31C58320D000A6ECE /* Meta_Clipboard_OSUITests.swift */,
+				D8C009F51C58320D000A6ECE /* Info.plist */,
+			);
+			path = "Meta Clipboard OSUITests";
+			sourceTree = "<group>";
+		};
+		D8C00A021C5A6D54000A6ECE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D8C00A031C5A6D77000A6ECE /* CloudArray.swift */,
+				D8C00A061C5A6DBE000A6ECE /* MetaClipboard.swift */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +293,59 @@
 			productReference = D81F45FB1C5827DC00F9934D /* Meta ClipboardUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		D8C009D31C58320C000A6ECE /* Meta Clipboard OS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8C009FC1C58320D000A6ECE /* Build configuration list for PBXNativeTarget "Meta Clipboard OS" */;
+			buildPhases = (
+				D8C009D01C58320C000A6ECE /* Sources */,
+				D8C009D11C58320C000A6ECE /* Frameworks */,
+				D8C009D21C58320C000A6ECE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Meta Clipboard OS";
+			productName = "Meta Clipboard OS";
+			productReference = D8C009D41C58320C000A6ECE /* Meta Clipboard OS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8C009E31C58320C000A6ECE /* Meta Clipboard OSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8C009FD1C58320D000A6ECE /* Build configuration list for PBXNativeTarget "Meta Clipboard OSTests" */;
+			buildPhases = (
+				D8C009E01C58320C000A6ECE /* Sources */,
+				D8C009E11C58320C000A6ECE /* Frameworks */,
+				D8C009E21C58320C000A6ECE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8C009E61C58320C000A6ECE /* PBXTargetDependency */,
+			);
+			name = "Meta Clipboard OSTests";
+			productName = "Meta Clipboard OSTests";
+			productReference = D8C009E41C58320C000A6ECE /* Meta Clipboard OSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D8C009EE1C58320D000A6ECE /* Meta Clipboard OSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8C009FE1C58320D000A6ECE /* Build configuration list for PBXNativeTarget "Meta Clipboard OSUITests" */;
+			buildPhases = (
+				D8C009EB1C58320D000A6ECE /* Sources */,
+				D8C009EC1C58320D000A6ECE /* Frameworks */,
+				D8C009ED1C58320D000A6ECE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8C009F11C58320D000A6ECE /* PBXTargetDependency */,
+			);
+			name = "Meta Clipboard OSUITests";
+			productName = "Meta Clipboard OSUITests";
+			productReference = D8C009EF1C58320D000A6ECE /* Meta Clipboard OSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -196,6 +358,12 @@
 				TargetAttributes = {
 					D81F45D81C5827DC00F9934D = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = D8T2GHR955;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 					D81F45EF1C5827DC00F9934D = {
 						CreatedOnToolsVersion = 7.2;
@@ -204,6 +372,23 @@
 					D81F45FA1C5827DC00F9934D = {
 						CreatedOnToolsVersion = 7.2;
 						TestTargetID = D81F45D81C5827DC00F9934D;
+					};
+					D8C009D31C58320C000A6ECE = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = D8T2GHR955;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					D8C009E31C58320C000A6ECE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D8C009D31C58320C000A6ECE;
+					};
+					D8C009EE1C58320D000A6ECE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D8C009D31C58320C000A6ECE;
 					};
 				};
 			};
@@ -223,6 +408,9 @@
 				D81F45D81C5827DC00F9934D /* Meta Clipboard */,
 				D81F45EF1C5827DC00F9934D /* Meta ClipboardTests */,
 				D81F45FA1C5827DC00F9934D /* Meta ClipboardUITests */,
+				D8C009D31C58320C000A6ECE /* Meta Clipboard OS */,
+				D8C009E31C58320C000A6ECE /* Meta Clipboard OSTests */,
+				D8C009EE1C58320D000A6ECE /* Meta Clipboard OSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -252,6 +440,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D8C009D21C58320C000A6ECE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C009DB1C58320C000A6ECE /* Assets.xcassets in Resources */,
+				D8C009DE1C58320C000A6ECE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8C009E21C58320C000A6ECE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8C009ED1C58320D000A6ECE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,9 +470,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8C00A071C5A6DBE000A6ECE /* MetaClipboard.swift in Sources */,
 				D81F45E51C5827DC00F9934D /* Meta_Clipboard.xcdatamodeld in Sources */,
 				D81F45DF1C5827DC00F9934D /* ViewController.swift in Sources */,
 				D81F45DD1C5827DC00F9934D /* AppDelegate.swift in Sources */,
+				D8C00A041C5A6D77000A6ECE /* CloudArray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +494,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D8C009D01C58320C000A6ECE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C00A051C5A6D77000A6ECE /* CloudArray.swift in Sources */,
+				D8C00A081C5A6DBE000A6ECE /* MetaClipboard.swift in Sources */,
+				D8C009D91C58320C000A6ECE /* ViewController.swift in Sources */,
+				D8C009D71C58320C000A6ECE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8C009E01C58320C000A6ECE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C009E91C58320C000A6ECE /* Meta_Clipboard_OSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8C009EB1C58320D000A6ECE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C009F41C58320D000A6ECE /* Meta_Clipboard_OSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -293,6 +533,16 @@
 			isa = PBXTargetDependency;
 			target = D81F45D81C5827DC00F9934D /* Meta Clipboard */;
 			targetProxy = D81F45FC1C5827DC00F9934D /* PBXContainerItemProxy */;
+		};
+		D8C009E61C58320C000A6ECE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8C009D31C58320C000A6ECE /* Meta Clipboard OS */;
+			targetProxy = D8C009E51C58320C000A6ECE /* PBXContainerItemProxy */;
+		};
+		D8C009F11C58320D000A6ECE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8C009D31C58320C000A6ECE /* Meta Clipboard OS */;
+			targetProxy = D8C009F01C58320D000A6ECE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -311,6 +561,14 @@
 				D81F45E91C5827DC00F9934D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D8C009DC1C58320C000A6ECE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8C009DD1C58320C000A6ECE /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -403,10 +661,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Meta Clipboard/Meta Clipboard.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Meta Clipboard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.disforma.Meta-Clipboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -414,10 +676,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Meta Clipboard/Meta Clipboard.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Meta Clipboard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.disforma.Meta-Clipboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -469,6 +735,106 @@
 			};
 			name = Release;
 		};
+		D8C009F61C58320D000A6ECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Meta Clipboard OS/Meta Clipboard OS.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Meta Clipboard OS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.disforma.Meta-Clipboard-OS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D8C009F71C58320D000A6ECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Meta Clipboard OS/Meta Clipboard OS.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Meta Clipboard OS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.disforma.Meta-Clipboard-OS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D8C009F81C58320D000A6ECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Meta Clipboard OSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.disforma.Meta-Clipboard-OSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meta Clipboard OS.app/Contents/MacOS/Meta Clipboard OS";
+			};
+			name = Debug;
+		};
+		D8C009F91C58320D000A6ECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Meta Clipboard OSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.disforma.Meta-Clipboard-OSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meta Clipboard OS.app/Contents/MacOS/Meta Clipboard OS";
+			};
+			name = Release;
+		};
+		D8C009FA1C58320D000A6ECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Meta Clipboard OSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.disforma.Meta-Clipboard-OSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = "Meta Clipboard OS";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D8C009FB1C58320D000A6ECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Meta Clipboard OSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.disforma.Meta-Clipboard-OSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = "Meta Clipboard OS";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -488,6 +854,7 @@
 				D81F46061C5827DC00F9934D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D81F46071C5827DC00F9934D /* Build configuration list for PBXNativeTarget "Meta ClipboardTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +863,7 @@
 				D81F46091C5827DC00F9934D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D81F460A1C5827DC00F9934D /* Build configuration list for PBXNativeTarget "Meta ClipboardUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +872,34 @@
 				D81F460C1C5827DC00F9934D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8C009FC1C58320D000A6ECE /* Build configuration list for PBXNativeTarget "Meta Clipboard OS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8C009F61C58320D000A6ECE /* Debug */,
+				D8C009F71C58320D000A6ECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8C009FD1C58320D000A6ECE /* Build configuration list for PBXNativeTarget "Meta Clipboard OSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8C009F81C58320D000A6ECE /* Debug */,
+				D8C009F91C58320D000A6ECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8C009FE1C58320D000A6ECE /* Build configuration list for PBXNativeTarget "Meta Clipboard OSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8C009FA1C58320D000A6ECE /* Debug */,
+				D8C009FB1C58320D000A6ECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
